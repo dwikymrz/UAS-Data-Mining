@@ -33,5 +33,5 @@ def main():
         result = prediction(age, sex, bmi, children, smoker)
     st.success('Hasil Prediksi Premi Asuransi anda = {}'.format(result))
     
-if __name__=='__main__':
+if _name_=='_main_':
     main()
